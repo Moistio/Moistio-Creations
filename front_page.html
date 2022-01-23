@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Front_Page</title>
+    <link rel="stylesheet" href="front_page.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://kit.fontawesome.com/3a8f25c52f.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+      body {margin:0;}
+    </style>
+  </head>
+  <body>
+    <div id="bg">    
+      <div id="img"></div>
+      <div id="title">
+        <h1>Moistio Official</h1>
+      </div>
+    </div> 
+
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id=cancel></i>
+    </label>
+    <div class="sidebar">
+      <ul class="menu">
+        <li><a href="front_page.html" class="active">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="order.html">Custom Order</a></li>
+        <li><a href="inquiries.html">Inquiries</a></li>
+      </ul>
+    </div>
+
+    <div class="showcase">
+      <div id="featured-text">
+        <h2> Featured Projects </h2>
+      </div>
+      <i class="fas fa-angle-right" id=galleryRight></i>
+      <i class="fas fa-angle-left" id=galleryLeft></i>
+      <div class="featured-slides">
+        <img id="lastClone" src="media/PokeUniverse_7.jpg" alt="PokeUniverse" width="1280" height="720">
+        <img src="media/Y-12_1.png" alt="Y-12" width="1280" height="720">
+        <img src="media/Y-628_1.png" alt ="Y-628" width="1280" height="720">
+        <img src="media/PokeUniverse_7.jpg" alt="PokeUniverse" width="1280" height="720">
+        <img id="firstClone" src="media/Y-12_1.png" alt="Y-12" width="1280" height="720">
+      </div>
+    </div>
+    
+    <script src="gallery.js"></script>
+  </body>
+</html>

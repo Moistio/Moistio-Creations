@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "Azonix";
+    src: url("misc/Azonix.otf");
+}
+
+@font-face{
+    font-family: "DS";
+    src: url("misc\Sackers Gothic Light AT.otf")
+}
+
+#title {
+    font-family: Azonix;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 20%;
+    right: 20%;
+    border-top: 2px solid #ffa64d;
+}
+
+#text{
+    font-family: Azonix;
+    color: white;
+    text-align: center;
+    position: fixed;
+    font-size: 100%;
+    width: 800px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 10px;
+    transform: translateY(240px);
+    border: solid white 1px;
+}
+
+#bg {
+    position: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/media/kronicjinx-1.jpg");
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+#options ul{
+    text-align: center;
+}
+
+#options li{
+    font-family: Azonix;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border: white 1px solid;
+    font-size: 20px;
+    left: 0px;
+    right: 0px;
+    width: 350px;
+    height: 150px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transform: translateY(400px);
+}
+
+#discord{
+    font-family: Azonix;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    line-height: 1.6;
+    width: 700px;
+    text-align: center;
+    border-radius: 5px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 10px;
+    transform: translateY(430px);
+}

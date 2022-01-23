@@ -1,0 +1,135 @@
+@font-face{
+    font-family: "Azonix";
+    src: url("misc/Azonix.otf");
+}
+
+@font-face{
+    font-family: "DS";
+    src: url("misc\Sackers Gothic Light AT.otf")
+}
+
+#title {
+    font-family: Azonix;
+    font-size: 205%;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #ffa64d;
+    width: 80%;
+    transform: translateY(50px);
+}
+
+#bg {
+    position: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/media/Heaven_and_Earth_1.jpg");
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.accordion {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    padding: pointer;
+    font-family: Azonix;
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    transform: translateY(120px);
+    transition: 0.4s ease-out;
+}
+
+.accordion:hover, .active {
+    color: #ffa64d;
+}
+
+.panel {
+    font-family: Azonix;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: relative;
+    transform: translateY(120px);
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    padding: 0px;
+}
+
+.project-img {
+    cursor: pointer;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 20px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: Azonix;
+    padding: 20px;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.7s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa64d;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-button {
+    color:black;
+    background: black;
+    display: none;
+}
+

@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "Azonix";
+    src: url("misc/Azonix.otf");
+}
+
+@font-face{
+    font-family: "DS";
+    src: url("misc\Sackers Gothic Light AT.otf")
+}
+
+#title {
+    font-family: Azonix;
+    font-size: 225%;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #ffa64d;
+    width: 80%;
+    transform: translateY(50px);
+}
+
+#subtitle {
+    font-family: Azonix;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #ffa64d;
+    width: 80%;
+    padding-top: 30px;
+    transform: translateY(50px);
+}
+
+#bg {
+    position: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/media/Heaven_and_Earth_2.jpg");
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    z-index: -1;
+}
+
+.card h1 {
+    font-size: 20px;
+    color: #ffa64d;
+    border-bottom: #ffa64d solid 1px;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px
+}
+
+.card {
+    box-shadow: white;
+    text-align: center;
+    font-family: Azonix;
+    height: 500px;
+    width: 405px;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: .5px 0.5px 20px white;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    color: white;
+    font-size: 20px;
+    font-family: Azonix;
+}
+
+.card button:hover {
+    color: #ffa64d;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    transform: translateY(100px);
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa64d;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-button {
+    color:black;
+    background: black;
+    display: none;
+}
